@@ -1,4 +1,4 @@
-# video-calssification
+# video-classification
 Hi there ✋!  
 In this project, I have build video classification model using EfficientNetB0 and BiLSTM model to classify video dataset.
 This code uses videos as inputs and outputs class names and predicted class scores for each 20 frames in the score mode.
