@@ -29,3 +29,18 @@ POST /predict
   "confidence": 0.94,
   "top_3": [...]
 }
+
+## Setup
+
+### 1. Clone the repo
+git clone https://github.com/Rushi117108/video-classification.git
+
+### 2. Download the model
+Download `efficient_net_model_full.h5` from HuggingFace and place it in the `model/` folder:
+👉 https://huggingface.co/spaces/rushi-117/video-action-classifier
+
+### 3. Install dependencies
+pip install -r requirements.txt
+
+### 4. Run locally
+uvicorn app.main:app --reload --port 8000
